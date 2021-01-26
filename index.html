@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <!-- google font -->
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <!-- Icons -->
+        <link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet">
+        <link href="/your-path-to-fontawesome/css/brands.css" rel="stylesheet">
+        <link href="/your-path-to-fontawesome/css/solid.css" rel="stylesheet">
+        <!-- AOS animation -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <title>Shin's PC</title>
+    </head>
+    <body>
+        <nav>
+            <div class="logo">
+                <!-- <h4>Shin's PC</h4> -->
+                <a href='#home'><img src="img/logo.png"></a>
+            </div>
+            <ul class="navLink">
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+                <li>
+                    <a href="#service">Service</a>
+                </li> 
+                <li>
+                    <a href="#products">Products</a>
+                </li> 
+                <li>
+                    <a href="#">Testimonials</a>
+                </li>
+                <li>
+                    <a href="#">About us</a>
+                </li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+        <section class="home" id='home'>
+            <img class='imgComputer' src='./img/computer2.jpg_large' >
+            <h1 id='homeTitle'>Shin's PC</h1>
+            <h3 id='homeSubtitle'>Setup | Build | Play</h3>
+        </section>
+        <section id='service'>
+            <div class="serviceTitle" data-aos="fade-down" data-aos-delay="150">
+                <h1>Our Service</h1>
+            </div>
+            <div class="service">
+                <div class="serviceCards" data-aos="fade-right" data-aos-delay="300">
+                    <h2>Build</h2>
+                    <img src="./img/build.svg">
+                    <p>Build your dream desktop that fits on your personal requirements.</p>
+                </div>
+                <div class="serviceCards" data-aos="fade-right" data-aos-delay="150">
+                    <h2>Install</h2>
+                    <img src="./img/install.svg">
+                    <p>Install the latest applications such as games and other softwares that you will use on your daily needs.</p>
+                </div>
+                <div class="serviceCards" data-aos="fade-left" data-aos-delay="150">
+                    <h2>Upgrade</h2>
+                    <img src="./img/upgrade.svg">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis repellat mollitia porro ratione natus! Maxime officiis atque nostrum harum aliquam.</p>    
+                </div>
+                <div class="serviceCards" data-aos="fade-left" data-aos-delay="300">
+                    <h2>Format and repair</h2>
+                    <img src="./img/format.svg">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab sequi enim laudantium nesciunt. Architecto excepturi deleniti quis perferendis necessitatibus odio.</p>
+                </div>
+            </div>
+        </section>
+        <section id='products'>
+            <div class="productTitle" data-aos="fade-in" data-aos-delay="200">
+                <h1>Products offered</h1>
+            </div>
+            <div class="product">
+                <div class="productCards" data-aos="zoom-in">
+                    <h2 id='productCardsTitle'>Pisonet and <br> Basic Package</h2>
+                    <a href="#specsModal" class="linkProducts">Intel 6th gen set</a>
+                        <!-- <div id="specsModal" class="modal">
+                            <div>
+                                <a href='' class='closeModal'>Close</a>
+                                <h2>Intel 6th gen Specification</h2>
+                              <ul>
+                                    <li>Processor: Intel G3900</li>
+                                    <li>Motherboard: Gigabyte H310M</li>
+                                    <li>Memory: 8gb 1600mhz</li>
+                                    <li>Storage: 120gb ssd</li>
+                                    <li>Power Supply: 700 watts big fan</li>
+                                    <li>Monitor: Viewsonic 22" 1920x1080</li>
+                                </ul>
+                                
+                            </div>
+                        </div> -->
+                    <a href="#" class="linkProducts">Amd A6 set</a>
+                    <button class="btnView">View image</button>
+                </div>
+                <div class="productCards" data-aos="zoom-in">
+                    <h2 id='productCardsTitle'>Work from home and <br> online class package</h2>
+                    <a href="#" class="linkProducts">AMD Athlon 200ge set</a>
+                    <a href="#" class="linkProducts">Ryzen 3 3200g set</a>
+                    <button class="btnView">View image</button>
+                </div>
+                <div class="productCards" data-aos="zoom-in">
+                    <h2 id='productCardsTitle'>Gaming and <br>streaming package</h2>
+                    <a href="#" class="linkProducts">Ryzen 3 3100 set</a>
+                    <a href="#" class="linkProducts">Ryzen 5 2600 set</a>
+                    <button class="btnView">View image</button>
+                </div>
+            </div>
+        </section>
+        <script src="app.js"></script>
+    </body>
+</html>
